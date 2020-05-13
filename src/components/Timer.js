@@ -97,7 +97,7 @@ class Timer extends React.Component {
             <section>
                 <section id="session-container">
                     <h4 className="session-header">
-                        {this.state.isSessionInterval ? "Session" : "Break"}
+                        {this.state.isSessionInterval ? "Work" : "Break"}
                     </h4>
                     <span className={timerClass}>{this.props.timerMinute}</span>
                     <span className={timerClass} id="colon">
@@ -113,12 +113,14 @@ class Timer extends React.Component {
                 </section>
                 <section id="actions-container">
                     <button data-type="play" onClick={this.playStopTimer}>
-                        Play
+                        <i class="fas fa-play"></i>
                     </button>
                     <button data-type="stop" onClick={this.playStopTimer}>
-                        Stop
+                        <i class="fas fa-pause"></i>
                     </button>
-                    <button onClick={this.resetTimer}>Refresh</button>
+                    <button onClick={this.resetTimer}>
+                        <i class="fas fa-redo-alt"></i>
+                    </button>
                 </section>
             </section>
         );

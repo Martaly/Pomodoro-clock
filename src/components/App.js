@@ -59,7 +59,7 @@ class App extends React.Component {
         return (
             <main className="App">
                 <section>
-                    <h2 className="app-title">Pomodoro Clock</h2>
+                    <h2 className="app-title">~ POMODORO CLOCK ~</h2>
                     <section id="interval-container">
                         <BreakInterval
                             onBreakIntervalChange={this.onBreakIntervalChange}

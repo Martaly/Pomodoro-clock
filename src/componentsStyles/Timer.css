@@ -1,28 +1,38 @@
 #session-container {
-    border: 5px solid rgba(38, 54, 70, 0.7);
-    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+    border: 5px solid white;
+    /*box-shadow: 0 2px 20px white;*/
     width: 300px;
-    margin: 35px auto;
-    border-radius: 25px;
+    height: 300px;
+    margin: -230px;
+    border-radius: 200px;
+    margin-left: 270px;
+    z-index: 4;
+    position: relative;
+    /*background-color: #141518;*/
 }
 
 .session-timer {
-    margin: 0 0 20px 0;
-    font-size: 5rem;
-    color: #263646;
-    font-weight: 400;
+    font-size: 80px;
+    color: white;
+    padding: 5px;
+
+    justify-content: center;
 }
 
 .session-header {
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 #colon {
     position: relative;
-    bottom: 7px;
-    margin: 0 8px;
+
+    margin: 10px;
 }
 
 .timer-alert {
-    color: #c44949;
+    color: rgba(240, 113, 70, 1);
 }

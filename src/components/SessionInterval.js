@@ -23,20 +23,20 @@ function SessionInterval(props) {
 
     return (
         <section id="session-interval-container">
-            <h4>Session Length</h4>
+            <h4>Work Length</h4>
             <section id="session-interval">
                 <button
                     disabled={props.isPlay ? "disabled" : ""}
                     onClick={decreaseCounter}
                     className="counter-btn">
-                    Down
+                    <i class="fas fa-minus"></i>
                 </button>
                 <p className="session-time">{props.sessionInterval}</p>
                 <button
                     disabled={props.isPlay ? "disabled" : ""}
                     onClick={increaseCounter}
                     className="counter-btn">
-                    Up
+                    <i class="fas fa-plus"></i>
                 </button>
             </section>
         </section>

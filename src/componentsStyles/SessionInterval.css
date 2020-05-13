@@ -1,19 +1,38 @@
 #session-interval-container {
-    width: 250px;
+    width: 300px;
     text-align: center;
-    margin-left: 50px;
+    background: -webkit-linear-gradient(
+        -45deg,
+        rgba(240, 113, 70, 1) 0%,
+        rgba(229, 91, 43, 1) 50%,
+        rgba(242, 130, 91, 1) 100%
+    );
+    border-radius: 0px 40px 40px 0px;
+    margin-top: 20px;
+    padding: 5px;
+    box-shadow: 0 2px 10px rgba(242, 130, 91, 1);
+    padding-left: 120px;
 }
 
 #session-interval {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .session-time {
-    margin: 0 20px;
-    font-size: 2.2rem;
+    margin: 20px;
+    font-size: 30px;
     font-weight: 500;
+}
+
+h4 {
+    color: #141518;
+
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 10px;
 }
 
 @media screen and (max-width: 700px) {
