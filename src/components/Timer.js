@@ -1,6 +1,7 @@
 import React from "react";
 import "../componentsStyles/SessionActions.css";
 import "../componentsStyles/Timer.css";
+import "./SessionInterval";
 
 class Timer extends React.Component {
     constructor() {
@@ -111,6 +112,7 @@ class Timer extends React.Component {
                             : this.state.timerSeconds}
                     </span>
                 </section>
+
                 <section id="actions-container">
                     <button data-type="play" onClick={this.playStopTimer}>
                         <i class="fas fa-play"></i>
@@ -118,7 +120,7 @@ class Timer extends React.Component {
                     <button data-type="stop" onClick={this.playStopTimer}>
                         <i class="fas fa-pause"></i>
                     </button>
-                    <button onClick={this.resetTimer}>
+                    <button data-type="reset" onClick={this.resetTimer}>
                         <i class="fas fa-redo-alt"></i>
                     </button>
                 </section>
