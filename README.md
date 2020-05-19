@@ -1,5 +1,5 @@
 # POMODORO CLOCK
 
-> TODO
+Little pomodoro to manage your time.
 
----
+--- ENJOY ---
